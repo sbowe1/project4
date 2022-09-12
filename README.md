@@ -53,18 +53,18 @@ tensorflow_addons
 
 The optimal hyperparameter values were as follows:
 
-- 'activation': 'tanh'
-- 'first_units': 7
-- 'num_layers': 6
-- 'units_0': 9
-- 'units_1': 17
-- 'units_2': 13
-- 'units_3': 3,
-- 'units_4': 11,
-- 'units_5': 3,
-- 'tuner/epochs': 20,
-- 'tuner/initial_epoch': 0,
-- 'tuner/bracket': 0,
+- 'activation': 'relu'
+- 'first_units': 9
+- 'num_layers': 5
+- 'units_0': 17
+- 'units_1': 9
+- 'units_2': 17
+- 'units_3': 9
+- 'units_4': 13
+- 'units_5': 5
+- 'tuner/epochs': 20
+- 'tuner/initial_epoch': 0
+- 'tuner/bracket': 0
 - 'tuner/round': 0
 
 ![Model Architecture](Resources/model_img.png)
