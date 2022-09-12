@@ -1,11 +1,12 @@
 
 # Heart Disease Classification
 
+In the United States, heart disease is the **leading cause** of death among men, women, and most racial and ethnic groups.<sup>1</sup> Although high blood pressure, high blood cholesterol, and smoking are well-known risk factors for heart disease<sup>2</sup>, predicting whether or not an individual will develop the disease or not is still a daunting task. Through the power of machine learning, predicting an individual's risk can become easier. This project uses `tensorflow` and `sklearn` to create a deep learning model to classify if an individual has heart disease. 
+
+## About the Data
 Dataset: https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset
 
 Dataset shape: (1025, 14) i.e 1025 rows and 14 columns.
-
-## About the Datasaet
 
 The [dataset](https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset) from 1988 compiles data from four databases and narrows down the original 76 attributes to a subset of just 14. Of the 14 attributes, 13 are predictive attributes and the final attribute, "Target" refers to the presence (value 1) or absence (value 0) of heart disease in the patient. 
 
@@ -79,3 +80,9 @@ Open and run the [heart_disease.ipynb](heart_disease.ipynb) file.
 ## Group Members
 
 Dennis Chen, Sidney Bowe, Nancy Campos, and Scott Alexander
+
+## References
+
+1. Centers for Disease Control and Prevention, Naitonal Center for Health Statistics. [About Multiple Cause of Death, 1999-2020](https://wonder.cdc.gov/mcd-icd10.html)
+
+2. Centers for Disease Control and Prevention, Naitonal Center for Health Statistics. [Know Your Risk for Heart Disease](https://www.cdc.gov/heartdisease/risk_factors.html)
